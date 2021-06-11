@@ -8,15 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishwast03/PaymentGatewayIntegration-Project.git"
+    "url": "git+https://github.com/vishwast03/DTC-FundRaiser.git"
   },
   "author": "Vishwas Tyagi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vishwast03/PaymentGatewayIntegration-Project/issues"
+    "url": "https://github.com/vishwast03/DTC-FundRaiser/issues"
   },
-  "homepage": "https://github.com/vishwast03/PaymentGatewayIntegration-Project#readme",
+  "homepage": "https://github.com/vishwast03/DTC-FundRaiser#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
   }
 }

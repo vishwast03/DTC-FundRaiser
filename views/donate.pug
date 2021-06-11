@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        title DTC FundRaiser-Donate
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul#navigation
+                div#logo DTC FundRaiser
+                li #[a(href="/") Home]
+                li #[a(href="/#about") About Us]
+        div.card
+            div.card-body
+                h2 Donate
+                form(action="/paynow" method="post")
+                    div.form-group
+                        //- label(for="") Name:
+                        input(class="form-control" type="text" name="name" value="" placeholder="Name")
+                    div.form-group
+                        //- label(for="") Email:
+                        input(class="form-control" type="text" name="email" value="" placeholder="Email")
+                    div.form-group
+                        //- label(for="") Phone:
+                        input(class="form-control" type="text" name="phone" value="" placeholder="Phone")
+                    div.form-group
+                        //- label(for="") Amount:
+                        input(class="form-control" type="text" name="amount" value="" placeholder="Amount")
+                    div.form-group
+                        button#paynow Pay Now
