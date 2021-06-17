@@ -27,7 +27,7 @@ body{
 }
 
 #navbar{
-    height: 70px;
+    height: 4.5em;
     border-radius: 5px;
     display: flex;
     background-color: var(--color-1);
